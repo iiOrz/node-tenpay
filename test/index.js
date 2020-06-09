@@ -24,7 +24,7 @@ describe('订单相关', () => {
     assert.deepEqual(Object.keys(res), keys);
   });
 
-  it.skip('APP支付参数(自动下单):  getAppParams', async () => {
+  it.skip('APP支付参数(自动下单): getAppParams', async () => {
     let res = await api.getAppParams({
       out_trade_no: id,
       body: '商品简单描述',
