@@ -10,7 +10,7 @@ const config = process.env.TESTER == 'travis' ? {
 const api = new tenpay(config, true);
 
 const assert = require('assert');
-describe('订单相关a', () => {
+describe('订单相关', () => {
   let id = Date.now();
 
   it.skip('H5/小程序支付参数(自动下单): getPayParams', async () => {
